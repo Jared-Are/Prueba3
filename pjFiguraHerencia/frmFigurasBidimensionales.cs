@@ -178,7 +178,7 @@ namespace pjFiguraHerencia
 
 
         //Este método habilita y deshabilita los botones "Calcular" de cada figura, verificando los textbox vacíos.
-        //kk
+      
         private void VerificarCamposNoVacios()
         {
             if (!string.IsNullOrWhiteSpace(txtBase.Text) && !string.IsNullOrWhiteSpace(txtAltura.Text))
