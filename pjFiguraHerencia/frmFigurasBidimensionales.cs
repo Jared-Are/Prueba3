@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace pjFiguraHerencia
 {
@@ -48,12 +47,12 @@ namespace pjFiguraHerencia
             }
 
             // Permitir solo un punto decimal
-            if ((e.KeyChar == '.') && ((sender as System.Windows.Forms.TextBox).Text.Contains(".")))
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.Contains(".")))
             {
                 e.Handled = true; // Bloquear la entrada de un segundo punto
             }
 
-            if ((e.KeyChar == '.') && (sender as System.Windows.Forms.TextBox).Text.Length == 0)
+            if ((e.KeyChar == '.') && (sender as TextBox).Text.Length == 0)
             {
                 e.Handled = true; // Bloquear la entrada si solo se ingresa un punto
             }
@@ -64,10 +63,10 @@ namespace pjFiguraHerencia
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '.')
                 e.Handled = true;
 
-            if ((e.KeyChar == '.') && ((sender as System.Windows.Forms.TextBox).Text.Contains(".")))
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.Contains(".")))
                 e.Handled = true;
 
-            if ((e.KeyChar == '.') && (sender as System.Windows.Forms.TextBox).Text.Length == 0)
+            if ((e.KeyChar == '.') && (sender as TextBox).Text.Length == 0)
                 e.Handled = true;
         }
 
@@ -76,10 +75,10 @@ namespace pjFiguraHerencia
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '.')
                 e.Handled = true;
 
-            if ((e.KeyChar == '.') && ((sender as System.Windows.Forms.TextBox).Text.Contains(".")))
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.Contains(".")))
                 e.Handled = true;
 
-            if ((e.KeyChar == '.') && (sender as System.Windows.Forms.TextBox).Text.Length == 0)
+            if ((e.KeyChar == '.') && (sender as TextBox).Text.Length == 0)
                 e.Handled = true;
         }
 
@@ -88,10 +87,10 @@ namespace pjFiguraHerencia
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '.')
                 e.Handled = true;
 
-            if ((e.KeyChar == '.') && ((sender as System.Windows.Forms.TextBox).Text.Contains(".")))
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.Contains(".")))
                 e.Handled = true;
 
-            if ((e.KeyChar == '.') && (sender as System.Windows.Forms.TextBox).Text.Length == 0)
+            if ((e.KeyChar == '.') && (sender as TextBox).Text.Length == 0)
                 e.Handled = true;
         }
 
