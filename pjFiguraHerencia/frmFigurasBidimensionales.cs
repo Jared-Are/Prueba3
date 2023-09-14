@@ -18,6 +18,7 @@ namespace pjFiguraHerencia
             InitializeComponent();
         }
 
+        //Hola
 
         //Aquí se ocultan los label y se bloquean los botones "Calcular" cuándo el programa(formulario) se inicia.
         private void frmFigurasBidimensionales_Load(object sender, EventArgs e)
