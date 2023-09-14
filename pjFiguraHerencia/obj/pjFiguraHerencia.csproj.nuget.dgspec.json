@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Josec\\OneDrive\\Escritorio\\práctica\\pjFiguraHerencia\\pjFiguraHerencia.csproj": {}
+    "C:\\Users\\Josec\\Source\\Repos\\Prueba3\\pjFiguraHerencia\\pjFiguraHerencia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Josec\\OneDrive\\Escritorio\\práctica\\Modelo\\Modelo.csproj": {
+    "C:\\Users\\Josec\\Source\\Repos\\Prueba3\\Modelo\\Modelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Josec\\OneDrive\\Escritorio\\práctica\\Modelo\\Modelo.csproj",
+        "projectUniqueName": "C:\\Users\\Josec\\Source\\Repos\\Prueba3\\Modelo\\Modelo.csproj",
         "projectName": "Modelo",
-        "projectPath": "C:\\Users\\Josec\\OneDrive\\Escritorio\\práctica\\Modelo\\Modelo.csproj",
+        "projectPath": "C:\\Users\\Josec\\Source\\Repos\\Prueba3\\Modelo\\Modelo.csproj",
         "packagesPath": "C:\\Users\\Josec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Josec\\OneDrive\\Escritorio\\práctica\\Modelo\\obj\\",
+        "outputPath": "C:\\Users\\Josec\\Source\\Repos\\Prueba3\\Modelo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Josec\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\Josec\\OneDrive\\Escritorio\\práctica\\pjFiguraHerencia\\pjFiguraHerencia.csproj": {
+    "C:\\Users\\Josec\\Source\\Repos\\Prueba3\\pjFiguraHerencia\\pjFiguraHerencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Josec\\OneDrive\\Escritorio\\práctica\\pjFiguraHerencia\\pjFiguraHerencia.csproj",
+        "projectUniqueName": "C:\\Users\\Josec\\Source\\Repos\\Prueba3\\pjFiguraHerencia\\pjFiguraHerencia.csproj",
         "projectName": "pjFiguraHerencia",
-        "projectPath": "C:\\Users\\Josec\\OneDrive\\Escritorio\\práctica\\pjFiguraHerencia\\pjFiguraHerencia.csproj",
+        "projectPath": "C:\\Users\\Josec\\Source\\Repos\\Prueba3\\pjFiguraHerencia\\pjFiguraHerencia.csproj",
         "packagesPath": "C:\\Users\\Josec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Josec\\OneDrive\\Escritorio\\práctica\\pjFiguraHerencia\\obj\\",
+        "outputPath": "C:\\Users\\Josec\\Source\\Repos\\Prueba3\\pjFiguraHerencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Josec\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\Josec\\OneDrive\\Escritorio\\práctica\\Modelo\\Modelo.csproj": {
-                "projectPath": "C:\\Users\\Josec\\OneDrive\\Escritorio\\práctica\\Modelo\\Modelo.csproj"
+              "C:\\Users\\Josec\\Source\\Repos\\Prueba3\\Modelo\\Modelo.csproj": {
+                "projectPath": "C:\\Users\\Josec\\Source\\Repos\\Prueba3\\Modelo\\Modelo.csproj"
               }
             }
           }

@@ -40,7 +40,7 @@ namespace pjFiguraHerencia
         //Estos 4 métodos validan que solo se ingresen números positivos a los textbox, y que solo se permita 1 punto decimal por textbox.
         private void txtRadio_KeyPress(object sender, KeyPressEventArgs e)
         {
-            // Permitir números decimales positivos (incluyendo punto) y la tecla Backspace
+            // Permitir números decimales positivos (incluyendo punto) y la tecla Backspace.
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '.')
             {
                 e.Handled = true; // Bloquear la entrada de caracteres no válidos
@@ -49,12 +49,12 @@ namespace pjFiguraHerencia
             // Permitir solo un punto decimal
             if ((e.KeyChar == '.') && ((sender as TextBox).Text.Contains(".")))
             {
-                e.Handled = true; // Bloquear la entrada de un segundo punto
+                e.Handled = true; // Bloquear la entrada de un segundo punto.
             }
 
             if ((e.KeyChar == '.') && (sender as TextBox).Text.Length == 0)
             {
-                e.Handled = true; // Bloquear la entrada si solo se ingresa un punto
+                e.Handled = true; // Bloquear la entrada si solo se ingresa un punto.
             }
         }
 
@@ -178,6 +178,7 @@ namespace pjFiguraHerencia
 
 
         //Este método habilita y deshabilita los botones "Calcular" de cada figura, verificando los textbox vacíos.
+        //kk
         private void VerificarCamposNoVacios()
         {
             if (!string.IsNullOrWhiteSpace(txtBase.Text) && !string.IsNullOrWhiteSpace(txtAltura.Text))

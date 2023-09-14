@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Josec\\OneDrive\\Escritorio\\práctica\\Modelo\\Modelo.csproj",
+      "projectUniqueName": "C:\\Users\\Josec\\Source\\Repos\\Prueba3\\Modelo\\Modelo.csproj",
       "projectName": "Modelo",
-      "projectPath": "C:\\Users\\Josec\\OneDrive\\Escritorio\\práctica\\Modelo\\Modelo.csproj",
+      "projectPath": "C:\\Users\\Josec\\Source\\Repos\\Prueba3\\Modelo\\Modelo.csproj",
       "packagesPath": "C:\\Users\\Josec\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Josec\\OneDrive\\Escritorio\\práctica\\Modelo\\obj\\",
+      "outputPath": "C:\\Users\\Josec\\Source\\Repos\\Prueba3\\Modelo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Josec\\AppData\\Roaming\\NuGet\\NuGet.Config",
