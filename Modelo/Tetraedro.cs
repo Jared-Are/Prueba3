@@ -15,6 +15,7 @@ namespace Modelo
             this._Lado = _Lado;
         }
 
+
         public override double CalcularArea()
         { 
             return Math.Sqrt(3) * Math.Pow(_Lado, 2);
